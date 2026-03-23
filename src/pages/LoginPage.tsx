@@ -37,6 +37,33 @@ const LoginPage: React.FC = () => {
       <div className="max-w-md w-full space-y-8">
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
+            AI Task Tracker
+          </h2>
+          <p className="mt-2 text-center text-sm text-gray-600">
+            Your intelligent assistant for task management
+          </p>
+        </div>
+
+        <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 space-y-4">
+          <section>
+            <h3 className="text-sm font-semibold text-gray-800">Why is it needed?</h3>
+            <p className="text-xs text-gray-500 mt-1">
+              The project helps structure daily tasks and track progress through a user-friendly interface and API integration.
+            </p>
+          </section>
+          
+          <section>
+            <h3 className="text-sm font-semibold text-gray-800">How to use?</h3>
+            <ul className="text-xs text-gray-500 mt-1 list-disc list-inside space-y-1">
+              <li>Register if you don't have an account yet.</li>
+              <li>Log in with your credentials.</li>
+              <li>Create, edit, and delete tasks in your personal dashboard.</li>
+            </ul>
+          </section>
+        </div>
+
+        <div>
+          <h2 className="text-center text-xl font-bold text-gray-900">
             Sign in to your account
           </h2>
         </div>

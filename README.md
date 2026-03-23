@@ -1,5 +1,7 @@
 # AI Task Tracker Frontend
 
+**Live Demo:** [https://demo.my-daily-quest.com/](https://demo.my-daily-quest.com/)
+
 This is the frontend for the AI Task Tracker application, built with React, Vite, and Tailwind CSS.
 
 ## Tech Stack
